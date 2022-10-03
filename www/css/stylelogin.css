@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Mouse+Memoirs&family=Teko&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    color:white;
+}
+
+body{
+     background-image: url(fundo.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     height: 100vh;
+}
+
+.topo{
+    background-color: rgba(100, 94, 84, 0.8);
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+header h1{
+    padding: 5%;
+}
+
+.logo{
+    padding: 4%;
+}
+
+input{
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    color: aliceblue;
+    background-color: black;
+    border: none;
+    width: 50vw;
+    height: 2vh;
+}
+
+
+
+.formulario{
+    width: 70vw;
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    margin-top: 10vh;
+    margin-left: 15%;
+}
+
+.cabeca{
+    padding: 2vw;
+}
+
+.cont{
+    padding: 10vw;
+}
+
+.bnt{
+    padding: 5%;
+    color: aliceblue;
+    cursor: pointer;
+    background-color: rgb(100, 94, 84);
+    border: none;
+    width: 20vw;
+    height: 5vh;
+    margin:2%;
+}
+
+.bnt:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.fimform{
+    text-align: center;
+    padding: 5%;
+}

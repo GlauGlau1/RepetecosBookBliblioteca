@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="https://kit.fontawesome.com/1d86c75da9.js" crossorigin="anonymous"></script>
+  <script src="components/acao.js"></script>
+  <link rel="stylesheet" href="css/styleacervo.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="pesquisar">
+                <input type="text" name="pesquisa" id="psq" class="pesq" placeholder=" 🔎 Pesquisar">
+            </div>
+            <hr>
+            <div class="celectis">
+                <select>
+                    <option disabled selected>Relevância</option>
+                    <option>Mais emprestados</option>
+                    <option>Menos emprestados</option>
+                </select>
+                <select>
+                    <option disabled selected>Filtros</option>
+                    <option>Autor(a)</option>
+                    <optgroup label="Generos:">
+                      <option>Fantasia</option>
+                      <option>Ficção Cientifica</option>
+                      <option>Ação e Aventura</option>
+                      <option>Ficção Policial</option>
+                      <option>Horror</option>
+                      <option>Thriller e Suspense</option>
+                      <option>Romance</option>
+                      <option>Conto</option>
+                      <option>Infantil</option>
+                      <option>Memórias e autobiografias</option>
+                      <option>Biografia</option>
+                      <option>Gastronomia</option>
+                      <option>Arte e Fotografia</option>
+                      <option>Autoajuda</option>
+                      <option>História</option>
+                      <option>Viajem</option>
+                      <option>Humor</option>
+                      <option>Guias & Como Fazer</option>
+                      <option>Religião e Espitualidade</option>
+                      <option>Humanidades e Ciências Sociais</option>
+                      <option>Tecnologia e Ciência</option>
+
+                    </optgroup>
+                    <optgroup label="Classificação:">
+                      <option>De 0.0 a 2.5</option>
+                      <option>De 2.5 a 4.0</option>
+                      <option>De 4.0 a 5.0</option>
+                    </optgroup>
+                </select>
+            </div>
+        </section>
+        <section>
+            <div><h3>Resultados:</h3></div>
+<div class="dados"></div>
+        </section>
+    </main>
+</body>
+</html>

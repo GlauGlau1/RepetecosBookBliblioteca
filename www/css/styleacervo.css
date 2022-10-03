@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  border-color: rgb(207, 207, 207);
+}
+
+input::placeholder{
+    color: white;
+}
+
+hr{
+    height: 3px;
+    background-image: linear-gradient(45deg, rgb(63, 63, 226), rgb(224, 54, 54));
+    border: none;
+}
+
+select{
+    border: none;
+    width: 49vw;
+    height: 5vh;
+    text-align: center;
+    -webkit-appearance: none;
+}
+
+img{
+    width: 40vw;
+}
+
+i{
+    color: rgb(230, 230, 11);
+}
+
+.pesquisar{
+    background-color: rgb(100, 94, 84);
+    text-align: center;
+    padding: 2%;
+}
+
+.pesq{
+    background-color: rgb(141, 135, 126);
+    border: solid;
+    border-radius: 6vw;
+    border-color: white;
+    width: 90vw;
+    height: 5vh;
+    padding: 1vw;
+}
+
+.container{
+    background-color: whitesmoke;
+    border: solid;
+    border-radius: 5vw;
+    border-color: rgb(207, 207, 207);
+    margin: 2vw;
+}
+
+.cont{
+    padding: 2vw;
+}
+
+.descricao{
+    float: right;
+    padding: 5vw;
+}
